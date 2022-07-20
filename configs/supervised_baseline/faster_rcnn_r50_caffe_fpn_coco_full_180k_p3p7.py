@@ -4,8 +4,8 @@ data = dict(
     samples_per_gpu=2,
     workers_per_gpu=2,
     train=dict(
-        ann_file="data/coco/annotations/instances_train2017.json",
-        img_prefix="data/coco/train2017/",
+        ann_file="data/annotations/instances_train2017.json",
+        img_prefix="data/train2017/",
     ),
 )
 

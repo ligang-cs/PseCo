@@ -224,11 +224,11 @@ data = dict(
         ),
     ),
     val=dict(
-        ann_file="../data/instances_val2017.json",
+        ann_file="../data/annotations/instances_val2017.json",
         img_prefix="../data/val2017/",
         pipeline=test_pipeline),
     test=dict(
-        ann_file="../data/instances_val2017.json",
+        ann_file="../data/annotations/instances_val2017.json",
         img_prefix="../data/val2017/",
         pipeline=test_pipeline),
     sampler=dict(

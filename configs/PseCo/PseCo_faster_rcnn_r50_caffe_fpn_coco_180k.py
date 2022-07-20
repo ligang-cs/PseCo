@@ -163,12 +163,12 @@ data = dict(
     train=dict(
         sup=dict(
             type="CocoDataset",
-            ann_file="../data/semi_supervised/instances_train2017.${fold}@${percent}.json",
+            ann_file="../data/annotations/semi_supervised/instances_train2017.${fold}@${percent}.json",
             img_prefix="../data/train2017/",
         ),
         unsup=dict(
             type="CocoDataset",
-            ann_file="../data/semi_supervised/instances_train2017.${fold}@${percent}-unlabeled.json",
+            ann_file="../data/annotations/semi_supervised/instances_train2017.${fold}@${percent}-unlabeled.json",
             img_prefix="../data/train2017/",
             pipeline=unsup_pipeline,
         ),
