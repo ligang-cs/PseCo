@@ -33,3 +33,15 @@ class Weighter(Hook):
         ]
 
         setattr(model, self.name, runner.log_buffer.output[self.name])
+
+@HOOKS.register_module()
+class GetCurrentIter(Hook):
+    """ Pass iteration information to the model.
+    """
+    def before_train_iter(self, runner):
+        curr_step = runner.iter 
+        if is_module_wrapper(runner.model):
+            model = runner.model.module
+        else:
+            model = runner.model
+        setattr(model, "cur_iter", curr_step)

@@ -12,7 +12,7 @@ model = dict(
         norm_eval=True,
         style="caffe",
         init_cfg=dict(
-            type="Pretrained", checkpoint="/mnt/lustre/ligang2/Resource/resnet50_msra-5891d200.pth"
+            type="Pretrained", checkpoint="open-mmlab://detectron2/resnet50_caffe"
         ),
     )
 )
@@ -102,8 +102,8 @@ custom_hooks = [
 optimizer = dict(type="SGD", lr=0.01, momentum=0.9, weight_decay=0.0001)
 lr_config = dict(step=[120000, 160000])
 runner = dict(_delete_=True, type="IterBasedRunner", max_iters=180000)
-checkpoint_config = dict(by_epoch=False, interval=2000, max_keep_ckpts=5, create_symlink=False)
-evaluation = dict(interval=2000)
+checkpoint_config = dict(by_epoch=False, interval=10000, max_keep_ckpts=5, create_symlink=False)
+evaluation = dict(interval=10000)
 
 # fp16 = dict(loss_scale="dynamic")
 

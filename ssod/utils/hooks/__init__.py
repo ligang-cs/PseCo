@@ -1,4 +1,4 @@
-from .weight_adjust import Weighter
+from .weight_adjust import Weighter, GetCurrentIter
 from .mean_teacher import MeanTeacher
 from .weights_summary import WeightSummary
 from .evaluation import DistEvalHook
@@ -10,4 +10,5 @@ __all__ = [
     "DistEvalHook",
     "SubModulesDistEvalHook",
     "WeightSummary",
+    "GetCurrentIter"
 ]

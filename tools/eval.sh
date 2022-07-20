@@ -5,5 +5,5 @@ RESULTS=../checkpoints/results.pkl
 
 PYTHONPATH="$(dirname $0)/..":$PYTHONPATH \
 python thirdparty/mmdetection/tools/eval.py $RESULTS $CONFIG \
-            --cfg-options data.test.ann_file=../data/annotations/instances_val2017.json \
+            --cfg-options data.test.ann_file=../data/instances_val2017.json \
                       data.test.img_prefix=../data/val2017  

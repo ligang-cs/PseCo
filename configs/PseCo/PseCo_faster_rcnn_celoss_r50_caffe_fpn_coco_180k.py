@@ -187,7 +187,7 @@ semi_wrapper = dict(
         PLA_candidate_topk=12,
     ),
     test_cfg=dict(
-        inference_on="student"
+        inference_on="teacher"
         ),
 )
 
@@ -198,4 +198,5 @@ custom_hooks = [
     dict(type="NumClassCheckHook"),
     dict(type="WeightSummary"),
     dict(type="MeanTeacher", momentum=0.999, warm_up=0),
+    dict(type="GetCurrentIter")
 ]
