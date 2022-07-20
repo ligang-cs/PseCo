@@ -1,5 +1,5 @@
 # PseCo (ECCV 2022)
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2206.00630)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.16317)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=ligang-cs/PseCo)
 ### **PseCo: Pseudo Labeling and Consistency Training for Semi-Supervised Object Detection**
 
@@ -7,7 +7,7 @@
 
 <img src=./docs/framework.png width="70%">
 
-This repo is the official implementation of ECCV2022 paper ["PseCo: Pseudo Labeling and Consistency Training for Semi-Supervised Object Detection"](https://arxiv.org/abs/2106.09018). PseCo delves into two key techniques of semi-supervised learning (e.g., pseudo labeling and consistency training) for SSOD, and integrate object detection properties into them.
+This repo is the official implementation of ECCV2022 paper ["PseCo: Pseudo Labeling and Consistency Training for Semi-Supervised Object Detection"](https://arxiv.org/abs/2203.16317). PseCo delves into two key techniques of semi-supervised learning (e.g., pseudo labeling and consistency training) for SSOD, and integrate object detection properties into them.
 
 ## 🧪Main Results
 
