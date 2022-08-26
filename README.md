@@ -21,32 +21,32 @@ Following the common practice, all experimental results are averaged  on 5 diffe
 | Method | mAP| Model Weights |
 | ---- | -------| ----- |
 | Supervised Baseline|  12.20 |-|
-| PseCo| 22.43 |[BaiduYun](https://pan.baidu.com/s/1VIc3BnzxD_s0E_qsPHyiTA?pwd=nr12) |
+| PseCo| 22.43 |[BaiduYun](https://pan.baidu.com/s/1VIc3BnzxD_s0E_qsPHyiTA?pwd=nr12),[Google Drive](https://drive.google.com/file/d/1OOeRXFJYNdrLi2-SdtNCHaHLrXIiv0cy/view?usp=sharing) |
 
 #### 2% labeled data
 | Method | mAP| Model Weights |
 | ---- | -------| ----- |
 | Supervised Baseline| 16.53 |-|
-| PseCo| 27.77 | [BaiduYun](https://pan.baidu.com/s/1prSLnIlFUceMCwMBqxJg2w?pwd=u5jg) |
+| PseCo| 27.77 | [BaiduYun](https://pan.baidu.com/s/1prSLnIlFUceMCwMBqxJg2w?pwd=u5jg),[Google Drive](https://drive.google.com/file/d/1Pw7JeVa-l-TS17hl_DPOidhtoH1Z2Aof/view?usp=sharing) |
 
 #### 5% labeled data
 | Method | mAP| Model Weights |
 | ---- | -------| ----- |
 | Supervised Baseline|  21.17 |-|
-| PseCo| 32.50 | [BaiduYun](https://pan.baidu.com/s/1VjBWFc7idZkjfvzIfo55IA?pwd=t8hu) |
+| PseCo| 32.50 | [BaiduYun](https://pan.baidu.com/s/1VjBWFc7idZkjfvzIfo55IA?pwd=t8hu),[Google Drive](https://drive.google.com/file/d/1h3x1_6L1aGERoM1XAD2LvKOvsqd5jzWb/view?usp=sharing) |
 
 #### 10% labeled data
 | Method | mAP| Model Weights |
 | ---- | -------| ----- |
 | Supervised Baseline| 26.90 |-|
-| PseCo| 36.06 |[BaiduYun](https://pan.baidu.com/s/1564lArFjzdTff_CetxYTnA?pwd=dwzm) |
+| PseCo| 36.06 |[BaiduYun](https://pan.baidu.com/s/1564lArFjzdTff_CetxYTnA?pwd=dwzm),[Google Drive](https://drive.google.com/file/d/1023Un2J1vXeroPEb9TiRzNFnupgEip1c/view?usp=sharing) |
 
 
 ### Full Labeled Data
 | Method | mAP| Model Weights |
 | ---- | -------| ----- |
 | Supervised Baseline| 41.0 |-|
-| PseCo| 46.1 |[BaiduYun](https://pan.baidu.com/s/1G8qUzfD6tVTSF35iiCJuQQ?pwd=i63y)|
+| PseCo| 46.1 |[BaiduYun](https://pan.baidu.com/s/1G8qUzfD6tVTSF35iiCJuQQ?pwd=i63y),[Google Drive](https://drive.google.com/file/d/1j-1iIhLVJ8RdJYAxMKayLfFVXXmx-S-I/view?usp=sharing)|
 
 ## ➡️Usage
 Since this repo is built on the [Soft Teacher](https://github.com/microsoft/SoftTeacher), some setup instructions are cloned from it.
